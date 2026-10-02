@@ -1,0 +1,28 @@
+{
+  "method_version": "vader-english-clean-v1",
+  "package": "vaderSentiment",
+  "package_version": "3.3.2",
+  "lexicon_hashes_sha256": {
+    "vader_lexicon.txt": "1ec9c6e9ee19aade328f8beb393a6afa71a5bb3acf7d3cc22d4ef568df374bf5",
+    "emoji_utf8_lexicon.txt": "b8d54223ae1ce22a3e12c1f745316b71678c328eb5f5d3063a842f37cfbe2823"
+  },
+  "lexicon_version": "bundled with vaderSentiment 3.3.2",
+  "thresholds": {
+    "positive_min": 0.05,
+    "negative_max": -0.05
+  },
+  "settings": "Default SentimentIntensityAnalyzer; no lexicon edits; default punctuation, capitalization, negation and emoji handling",
+  "cleaning": "HTML tags removed, HTML entities decoded, http(s)/www URLs replaced with URL, whitespace collapsed; punctuation/negation/emojis retained; Guardian repeated leading headline removed from trail",
+  "primary_text": {
+    "X": "original enclosing post text only",
+    "Guardian": "headline plus cleaned trail; body excluded"
+  },
+  "metric_name": "text sentiment in AI-related material",
+  "source": "https://github.com/cjhutto/vaderSentiment",
+  "year_status": "2026 provisional",
+  "timezone": "America/New_York",
+  "rule_version": "ai-framing-boundaries-v1.1",
+  "rule_sha256": "440091677fe1c3327e222163953ff45515488a140dc5b2af953c4e2331417ccc",
+  "validation_seed": 787103,
+  "market_data_read": false
+}

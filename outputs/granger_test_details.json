@@ -1,0 +1,807 @@
+{
+  "primary_combined_basket_1lag": {
+    "test": {
+      "test": "primary_combined_basket_1lag",
+      "outcome": "basket_return",
+      "sentiment_series": "combined_mean",
+      "lags": 1,
+      "n": 14,
+      "usable_dates": [
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+      ],
+      "residual_df_unrestricted": 11,
+      "residual_df_restricted": 12,
+      "joint_numerator_df": 1,
+      "p_values_adjustment": "none; exploratory comparisons",
+      "status": "estimated_crosscheck_passed",
+      "fragility": "Very short sample and measurement error",
+      "restricted_rss": 0.002071371876636471,
+      "unrestricted_rss": 0.001927593193247909,
+      "joint_f": 0.820487187241679,
+      "p_value": 0.3844493590639886,
+      "statsmodels_joint_f": 0.8204871872416752,
+      "statsmodels_p_value": 0.38444935906398975,
+      "manual_statsmodels_max_coefficient_difference": 1.1102230246251565e-16,
+      "unrestricted_r_squared": 0.12890993582709942,
+      "restricted_r_squared": 0.06393555068279089,
+      "design_condition_number": 78.47437914671798,
+      "sentiment_coefficient_lag_1": 0.018872559648775045
+    },
+    "all_coefficients": {
+      "constant": 0.004421005655561749,
+      "return_lag_1": -0.2757809848222915,
+      "sentiment_change_lag_1": 0.018872559648775045
+    },
+    "sentiment_coefficient_units": "Decimal outcome return per 1-unit increase in lagged VADER compound change",
+    "excluded_sessions": [
+      {
+        "session_date": "2026-09-08",
+        "reason": "insufficient_previous_grid_sessions"
+      },
+      {
+        "session_date": "2026-09-09",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      },
+      {
+        "session_date": "2026-09-10",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      }
+    ],
+    "residuals": [
+      {
+        "session_date": "2026-09-11",
+        "unrestricted_residual": 0.00728809872524035,
+        "restricted_residual": 0.0040402020627248614
+      },
+      {
+        "session_date": "2026-09-14",
+        "unrestricted_residual": 0.00239671966915744,
+        "restricted_residual": 0.004794783116435487
+      },
+      {
+        "session_date": "2026-09-15",
+        "unrestricted_residual": -0.011400464463309997,
+        "restricted_residual": -0.009872484086702667
+      },
+      {
+        "session_date": "2026-09-16",
+        "unrestricted_residual": -0.0067921272144105555,
+        "restricted_residual": -0.00940847481697089
+      },
+      {
+        "session_date": "2026-09-17",
+        "unrestricted_residual": 0.006765537871881843,
+        "restricted_residual": 0.012612616783189264
+      },
+      {
+        "session_date": "2026-09-18",
+        "unrestricted_residual": 0.0017407819095185467,
+        "restricted_residual": -0.0003195955347105742
+      },
+      {
+        "session_date": "2026-09-21",
+        "unrestricted_residual": 0.03276004496312513,
+        "restricted_residual": 0.03314885476055989
+      },
+      {
+        "session_date": "2026-09-22",
+        "unrestricted_residual": -0.00013446377595701872,
+        "restricted_residual": -0.001123558037259731
+      },
+      {
+        "session_date": "2026-09-23",
+        "unrestricted_residual": -0.0182048383286743,
+        "restricted_residual": -0.017668645490987067
+      },
+      {
+        "session_date": "2026-09-24",
+        "unrestricted_residual": 0.0051519556601544985,
+        "restricted_residual": 0.002728954974590865
+      },
+      {
+        "session_date": "2026-09-25",
+        "unrestricted_residual": -0.00520424413235498,
+        "restricted_residual": 0.0004902278973337583
+      },
+      {
+        "session_date": "2026-09-28",
+        "unrestricted_residual": -0.011821307981820047,
+        "restricted_residual": -0.016057390729191212
+      },
+      {
+        "session_date": "2026-09-29",
+        "unrestricted_residual": -0.005885924104024939,
+        "restricted_residual": -0.002988989433183903
+      },
+      {
+        "session_date": "2026-09-30",
+        "unrestricted_residual": 0.003340231201474023,
+        "restricted_residual": -0.0003765014658280797
+      }
+    ]
+  },
+  "secondary_combined_spread_1lag": {
+    "test": {
+      "test": "secondary_combined_spread_1lag",
+      "outcome": "spread_return",
+      "sentiment_series": "combined_mean",
+      "lags": 1,
+      "n": 14,
+      "usable_dates": [
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+      ],
+      "residual_df_unrestricted": 11,
+      "residual_df_restricted": 12,
+      "joint_numerator_df": 1,
+      "p_values_adjustment": "none; exploratory comparisons",
+      "status": "estimated_crosscheck_passed",
+      "fragility": "Very short sample and measurement error",
+      "restricted_rss": 0.0006753405759326387,
+      "unrestricted_rss": 0.0006472553977760309,
+      "joint_f": 0.4773030256436533,
+      "p_value": 0.5039646429376305,
+      "statsmodels_joint_f": 0.477303025643657,
+      "statsmodels_p_value": 0.503964642937629,
+      "manual_statsmodels_max_coefficient_difference": 1.5612511283791264e-17,
+      "unrestricted_r_squared": 0.2043191073024323,
+      "restricted_r_squared": 0.16979357116321458,
+      "design_condition_number": 134.350287310107,
+      "sentiment_coefficient_lag_1": 0.008509766749143888
+    },
+    "all_coefficients": {
+      "constant": 0.004030021180209204,
+      "return_lag_1": -0.45403439257848527,
+      "sentiment_change_lag_1": 0.008509766749143888
+    },
+    "sentiment_coefficient_units": "Decimal outcome return per 1-unit increase in lagged VADER compound change",
+    "excluded_sessions": [
+      {
+        "session_date": "2026-09-08",
+        "reason": "insufficient_previous_grid_sessions"
+      },
+      {
+        "session_date": "2026-09-09",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      },
+      {
+        "session_date": "2026-09-10",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      }
+    ],
+    "residuals": [
+      {
+        "session_date": "2026-09-11",
+        "unrestricted_residual": -0.001245565383027039,
+        "restricted_residual": -0.0027059642712088756
+      },
+      {
+        "session_date": "2026-09-14",
+        "unrestricted_residual": 0.006468863293002879,
+        "restricted_residual": 0.00768933151207474
+      },
+      {
+        "session_date": "2026-09-15",
+        "unrestricted_residual": -0.002410260786853058,
+        "restricted_residual": -0.002042115618396927
+      },
+      {
+        "session_date": "2026-09-16",
+        "unrestricted_residual": -0.0028815340306340117,
+        "restricted_residual": -0.003965582919961312
+      },
+      {
+        "session_date": "2026-09-17",
+        "unrestricted_residual": 0.0002495844018414496,
+        "restricted_residual": 0.0028706478649409397
+      },
+      {
+        "session_date": "2026-09-18",
+        "unrestricted_residual": -0.0021406176133737073,
+        "restricted_residual": -0.003048584325781585
+      },
+      {
+        "session_date": "2026-09-21",
+        "unrestricted_residual": 0.01705592421827536,
+        "restricted_residual": 0.017372437765944316
+      },
+      {
+        "session_date": "2026-09-22",
+        "unrestricted_residual": -4.148612123423302e-05,
+        "restricted_residual": -0.0008902236860210671
+      },
+      {
+        "session_date": "2026-09-23",
+        "unrestricted_residual": -0.011572635550932329,
+        "restricted_residual": -0.011077729425078354
+      },
+      {
+        "session_date": "2026-09-24",
+        "unrestricted_residual": 0.005871053991295322,
+        "restricted_residual": 0.004902554536019477
+      },
+      {
+        "session_date": "2026-09-25",
+        "unrestricted_residual": -0.004959044415123586,
+        "restricted_residual": -0.002656674073795913
+      },
+      {
+        "session_date": "2026-09-28",
+        "unrestricted_residual": -0.008472469120795662,
+        "restricted_residual": -0.010146237195808901
+      },
+      {
+        "session_date": "2026-09-29",
+        "unrestricted_residual": -0.0012096400852945402,
+        "restricted_residual": 0.00022509998174754554
+      },
+      {
+        "session_date": "2026-09-30",
+        "unrestricted_residual": 0.005287827202853123,
+        "restricted_residual": 0.003473039855325904
+      }
+    ]
+  },
+  "secondary_guardian_basket_1lag": {
+    "test": {
+      "test": "secondary_guardian_basket_1lag",
+      "outcome": "basket_return",
+      "sentiment_series": "guardian_mean",
+      "lags": 1,
+      "n": 14,
+      "usable_dates": [
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+      ],
+      "residual_df_unrestricted": 11,
+      "residual_df_restricted": 12,
+      "joint_numerator_df": 1,
+      "p_values_adjustment": "none; exploratory comparisons",
+      "status": "estimated_crosscheck_passed",
+      "fragility": "Very short sample and measurement error",
+      "restricted_rss": 0.002071371876636471,
+      "unrestricted_rss": 0.00198242860214952,
+      "joint_f": 0.49352396262625703,
+      "p_value": 0.4969570105304165,
+      "statsmodels_joint_f": 0.4935239626262571,
+      "statsmodels_p_value": 0.4969570105304165,
+      "manual_statsmodels_max_coefficient_difference": 1.6653345369377348e-16,
+      "unrestricted_r_squared": 0.1041295101509917,
+      "restricted_r_squared": 0.06393555068279089,
+      "design_condition_number": 88.53666229193935,
+      "sentiment_coefficient_lag_1": 0.017011589185885995
+    },
+    "all_coefficients": {
+      "constant": 0.004472770011425468,
+      "return_lag_1": -0.35325279891630146,
+      "sentiment_change_lag_1": 0.017011589185885995
+    },
+    "sentiment_coefficient_units": "Decimal outcome return per 1-unit increase in lagged VADER compound change",
+    "excluded_sessions": [
+      {
+        "session_date": "2026-09-08",
+        "reason": "insufficient_previous_grid_sessions"
+      },
+      {
+        "session_date": "2026-09-09",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      },
+      {
+        "session_date": "2026-09-10",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      }
+    ],
+    "residuals": [
+      {
+        "session_date": "2026-09-11",
+        "unrestricted_residual": 0.005080585085075974,
+        "restricted_residual": 0.0040402020627248614
+      },
+      {
+        "session_date": "2026-09-14",
+        "unrestricted_residual": 0.004007496840198436,
+        "restricted_residual": 0.004794783116435487
+      },
+      {
+        "session_date": "2026-09-15",
+        "unrestricted_residual": -0.01090212496395529,
+        "restricted_residual": -0.009872484086702667
+      },
+      {
+        "session_date": "2026-09-16",
+        "unrestricted_residual": -0.00751488502239249,
+        "restricted_residual": -0.00940847481697089
+      },
+      {
+        "session_date": "2026-09-17",
+        "unrestricted_residual": 0.00762397203867656,
+        "restricted_residual": 0.012612616783189264
+      },
+      {
+        "session_date": "2026-09-18",
+        "unrestricted_residual": 0.003994460617501848,
+        "restricted_residual": -0.0003195955347105742
+      },
+      {
+        "session_date": "2026-09-21",
+        "unrestricted_residual": 0.03360070647252405,
+        "restricted_residual": 0.03314885476055989
+      },
+      {
+        "session_date": "2026-09-22",
+        "unrestricted_residual": -0.0016732863328377786,
+        "restricted_residual": -0.001123558037259731
+      },
+      {
+        "session_date": "2026-09-23",
+        "unrestricted_residual": -0.017643595966744117,
+        "restricted_residual": -0.017668645490987067
+      },
+      {
+        "session_date": "2026-09-24",
+        "unrestricted_residual": 0.004265238867640995,
+        "restricted_residual": 0.002728954974590865
+      },
+      {
+        "session_date": "2026-09-25",
+        "unrestricted_residual": -0.004494488963340516,
+        "restricted_residual": 0.0004902278973337583
+      },
+      {
+        "session_date": "2026-09-28",
+        "unrestricted_residual": -0.013724172649540145,
+        "restricted_residual": -0.016057390729191212
+      },
+      {
+        "session_date": "2026-09-29",
+        "unrestricted_residual": -0.004298625955837347,
+        "restricted_residual": -0.002988989433183903
+      },
+      {
+        "session_date": "2026-09-30",
+        "unrestricted_residual": 0.0016787199330298187,
+        "restricted_residual": -0.0003765014658280797
+      }
+    ]
+  },
+  "secondary_x_basket_1lag": {
+    "test": {
+      "test": "secondary_x_basket_1lag",
+      "outcome": "basket_return",
+      "sentiment_series": "x_mean",
+      "lags": 1,
+      "n": 14,
+      "usable_dates": [
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+      ],
+      "residual_df_unrestricted": 11,
+      "residual_df_restricted": 12,
+      "joint_numerator_df": 1,
+      "p_values_adjustment": "none; exploratory comparisons",
+      "status": "estimated_crosscheck_passed",
+      "fragility": "Very short sample and measurement error",
+      "restricted_rss": 0.002071371876636471,
+      "unrestricted_rss": 0.0019159411452190419,
+      "joint_f": 0.8923750345140451,
+      "p_value": 0.3651219523005309,
+      "statsmodels_joint_f": 0.8923750345140428,
+      "statsmodels_p_value": 0.3651219523005314,
+      "manual_statsmodels_max_coefficient_difference": 5.551115123125783e-17,
+      "unrestricted_r_squared": 0.13417556101231265,
+      "restricted_r_squared": 0.06393555068279089,
+      "design_condition_number": 79.4501013928412,
+      "sentiment_coefficient_lag_1": 0.015530021234899855
+    },
+    "all_coefficients": {
+      "constant": 0.004314019137732722,
+      "return_lag_1": -0.19761137908089238,
+      "sentiment_change_lag_1": 0.015530021234899855
+    },
+    "sentiment_coefficient_units": "Decimal outcome return per 1-unit increase in lagged VADER compound change",
+    "excluded_sessions": [
+      {
+        "session_date": "2026-09-08",
+        "reason": "insufficient_previous_grid_sessions"
+      },
+      {
+        "session_date": "2026-09-09",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      },
+      {
+        "session_date": "2026-09-10",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      }
+    ],
+    "residuals": [
+      {
+        "session_date": "2026-09-11",
+        "unrestricted_residual": 0.008435744450557033,
+        "restricted_residual": 0.0040402020627248614
+      },
+      {
+        "session_date": "2026-09-14",
+        "unrestricted_residual": 0.0015668233684461037,
+        "restricted_residual": 0.004794783116435487
+      },
+      {
+        "session_date": "2026-09-15",
+        "unrestricted_residual": -0.011447232774420075,
+        "restricted_residual": -0.009872484086702667
+      },
+      {
+        "session_date": "2026-09-16",
+        "unrestricted_residual": -0.006831221501911203,
+        "restricted_residual": -0.00940847481697089
+      },
+      {
+        "session_date": "2026-09-17",
+        "unrestricted_residual": 0.007543798530167532,
+        "restricted_residual": 0.012612616783189264
+      },
+      {
+        "session_date": "2026-09-18",
+        "unrestricted_residual": -0.000867009511618008,
+        "restricted_residual": -0.0003195955347105742
+      },
+      {
+        "session_date": "2026-09-21",
+        "unrestricted_residual": 0.03209646098502117,
+        "restricted_residual": 0.03314885476055989
+      },
+      {
+        "session_date": "2026-09-22",
+        "unrestricted_residual": 0.001006123017840691,
+        "restricted_residual": -0.001123558037259731
+      },
+      {
+        "session_date": "2026-09-23",
+        "unrestricted_residual": -0.018573967757481255,
+        "restricted_residual": -0.017668645490987067
+      },
+      {
+        "session_date": "2026-09-24",
+        "unrestricted_residual": 0.00531418972640812,
+        "restricted_residual": 0.002728954974590865
+      },
+      {
+        "session_date": "2026-09-25",
+        "unrestricted_residual": -0.004331019113208672,
+        "restricted_residual": 0.0004902278973337583
+      },
+      {
+        "session_date": "2026-09-28",
+        "unrestricted_residual": -0.011215753350488463,
+        "restricted_residual": -0.016057390729191212
+      },
+      {
+        "session_date": "2026-09-29",
+        "unrestricted_residual": -0.00656112255543196,
+        "restricted_residual": -0.002988989433183903
+      },
+      {
+        "session_date": "2026-09-30",
+        "unrestricted_residual": 0.003864186486118998,
+        "restricted_residual": -0.0003765014658280797
+      }
+    ]
+  },
+  "sensitivity_dedup_combined_basket_1lag": {
+    "test": {
+      "test": "sensitivity_dedup_combined_basket_1lag",
+      "outcome": "basket_return",
+      "sentiment_series": "combined_mean_dedup",
+      "lags": 1,
+      "n": 14,
+      "usable_dates": [
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+      ],
+      "residual_df_unrestricted": 11,
+      "residual_df_restricted": 12,
+      "joint_numerator_df": 1,
+      "p_values_adjustment": "none; exploratory comparisons",
+      "status": "estimated_crosscheck_passed",
+      "fragility": "Very short sample and measurement error",
+      "restricted_rss": 0.002071371876636471,
+      "unrestricted_rss": 0.0019167186457272466,
+      "joint_f": 0.8875509944006419,
+      "p_value": 0.3663723609907925,
+      "statsmodels_joint_f": 0.8875509944006394,
+      "statsmodels_p_value": 0.3663723609907931,
+      "manual_statsmodels_max_coefficient_difference": 8.673617379884035e-17,
+      "unrestricted_r_squared": 0.1338242042167196,
+      "restricted_r_squared": 0.06393555068279089,
+      "design_condition_number": 78.99358500443628,
+      "sentiment_coefficient_lag_1": 0.020196633078371162
+    },
+    "all_coefficients": {
+      "constant": 0.004470288166556561,
+      "return_lag_1": -0.28954005181543097,
+      "sentiment_change_lag_1": 0.020196633078371162
+    },
+    "sentiment_coefficient_units": "Decimal outcome return per 1-unit increase in lagged VADER compound change",
+    "excluded_sessions": [
+      {
+        "session_date": "2026-09-08",
+        "reason": "insufficient_previous_grid_sessions"
+      },
+      {
+        "session_date": "2026-09-09",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      },
+      {
+        "session_date": "2026-09-10",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      }
+    ],
+    "residuals": [
+      {
+        "session_date": "2026-09-11",
+        "unrestricted_residual": 0.0074082294355519735,
+        "restricted_residual": 0.0040402020627248614
+      },
+      {
+        "session_date": "2026-09-14",
+        "unrestricted_residual": 0.0023104950122335155,
+        "restricted_residual": 0.004794783116435487
+      },
+      {
+        "session_date": "2026-09-15",
+        "unrestricted_residual": -0.011463781364346576,
+        "restricted_residual": -0.009872484086702667
+      },
+      {
+        "session_date": "2026-09-16",
+        "unrestricted_residual": -0.00672835788823916,
+        "restricted_residual": -0.00940847481697089
+      },
+      {
+        "session_date": "2026-09-17",
+        "unrestricted_residual": 0.006281578243693383,
+        "restricted_residual": 0.012612616783189264
+      },
+      {
+        "session_date": "2026-09-18",
+        "unrestricted_residual": 0.002254517235211022,
+        "restricted_residual": -0.0003195955347105742
+      },
+      {
+        "session_date": "2026-09-21",
+        "unrestricted_residual": 0.03265017070383348,
+        "restricted_residual": 0.03314885476055989
+      },
+      {
+        "session_date": "2026-09-22",
+        "unrestricted_residual": -0.00013847578248941603,
+        "restricted_residual": -0.001123558037259731
+      },
+      {
+        "session_date": "2026-09-23",
+        "unrestricted_residual": -0.018018609849853578,
+        "restricted_residual": -0.017668645490987067
+      },
+      {
+        "session_date": "2026-09-24",
+        "unrestricted_residual": 0.0051475318978512615,
+        "restricted_residual": 0.002728954974590865
+      },
+      {
+        "session_date": "2026-09-25",
+        "unrestricted_residual": -0.005520687089038403,
+        "restricted_residual": 0.0004902278973337583
+      },
+      {
+        "session_date": "2026-09-28",
+        "unrestricted_residual": -0.012029377794898075,
+        "restricted_residual": -0.016057390729191212
+      },
+      {
+        "session_date": "2026-09-29",
+        "unrestricted_residual": -0.005579166162956648,
+        "restricted_residual": -0.002988989433183903
+      },
+      {
+        "session_date": "2026-09-30",
+        "unrestricted_residual": 0.003425933403447223,
+        "restricted_residual": -0.0003765014658280797
+      }
+    ]
+  },
+  "sensitivity_combined_basket_2lag": {
+    "test": {
+      "test": "sensitivity_combined_basket_2lag",
+      "outcome": "basket_return",
+      "sentiment_series": "combined_mean",
+      "lags": 2,
+      "n": 13,
+      "usable_dates": [
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+      ],
+      "residual_df_unrestricted": 8,
+      "residual_df_restricted": 10,
+      "joint_numerator_df": 2,
+      "p_values_adjustment": "none; exploratory comparisons",
+      "status": "estimated_crosscheck_passed",
+      "fragility": "Very short sample; two-lag sensitivity especially fragile",
+      "restricted_rss": 0.0019283878679688896,
+      "unrestricted_rss": 0.0015345033001826665,
+      "joint_f": 1.026741533209698,
+      "p_value": 0.40095325633148593,
+      "statsmodels_joint_f": 1.0267415332096994,
+      "statsmodels_p_value": 0.40095325633148554,
+      "manual_statsmodels_max_coefficient_difference": 1.6653345369377348e-16,
+      "unrestricted_r_squared": 0.2928778535945765,
+      "restricted_r_squared": 0.11136993440286691,
+      "design_condition_number": 95.05221511625085,
+      "sentiment_coefficient_lag_1": -0.012363993024767483,
+      "sentiment_coefficient_lag_2": -0.04340361071247423
+    },
+    "all_coefficients": {
+      "constant": 0.004305813934380574,
+      "return_lag_1": -0.13177563253085028,
+      "return_lag_2": -0.15744995291263622,
+      "sentiment_change_lag_1": -0.012363993024767483,
+      "sentiment_change_lag_2": -0.04340361071247423
+    },
+    "sentiment_coefficient_units": "Decimal outcome return per 1-unit increase in lagged VADER compound change",
+    "excluded_sessions": [
+      {
+        "session_date": "2026-09-08",
+        "reason": "insufficient_previous_grid_sessions"
+      },
+      {
+        "session_date": "2026-09-09",
+        "reason": "insufficient_previous_grid_sessions"
+      },
+      {
+        "session_date": "2026-09-10",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      },
+      {
+        "session_date": "2026-09-11",
+        "reason": "missing_adjacent_sentiment_change_lag"
+      }
+    ],
+    "residuals": [
+      {
+        "session_date": "2026-09-14",
+        "unrestricted_residual": -0.0042231802790099054,
+        "restricted_residual": 0.0032105961928620254
+      },
+      {
+        "session_date": "2026-09-15",
+        "unrestricted_residual": -0.0025979218279115228,
+        "restricted_residual": -0.007730145776271747
+      },
+      {
+        "session_date": "2026-09-16",
+        "unrestricted_residual": -0.006208622898712332,
+        "restricted_residual": -0.008653812843901668
+      },
+      {
+        "session_date": "2026-09-17",
+        "unrestricted_residual": 0.008371978550646725,
+        "restricted_residual": 0.010202046148701793
+      },
+      {
+        "session_date": "2026-09-18",
+        "unrestricted_residual": 0.008527468287271767,
+        "restricted_residual": -0.0008647889082122862
+      },
+      {
+        "session_date": "2026-09-21",
+        "unrestricted_residual": 0.03185570711008525,
+        "restricted_residual": 0.03687150929727019
+      },
+      {
+        "session_date": "2026-09-22",
+        "unrestricted_residual": -0.005424374896235793,
+        "restricted_residual": -9.833198492992246e-05
+      },
+      {
+        "session_date": "2026-09-23",
+        "unrestricted_residual": -0.011451605169851225,
+        "restricted_residual": -0.009428656600669261
+      },
+      {
+        "session_date": "2026-09-24",
+        "unrestricted_residual": 0.0013963077128787433,
+        "restricted_residual": 0.00020463384809803545
+      },
+      {
+        "session_date": "2026-09-25",
+        "unrestricted_residual": -0.005731317514913478,
+        "restricted_residual": -0.002449493184721745
+      },
+      {
+        "session_date": "2026-09-28",
+        "unrestricted_residual": -0.004534625079467756,
+        "restricted_residual": -0.014083969712303645
+      },
+      {
+        "session_date": "2026-09-29",
+        "unrestricted_residual": -0.00989174791185402,
+        "restricted_residual": -0.0035005013716061916
+      },
+      {
+        "session_date": "2026-09-30",
+        "unrestricted_residual": -8.806608292649112e-05,
+        "restricted_residual": -0.0036790851043156025
+      }
+    ]
+  }
+}

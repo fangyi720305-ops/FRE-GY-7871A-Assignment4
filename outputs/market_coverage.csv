@@ -1,0 +1,7 @@
+﻿symbol,expected_sessions,rows,missing_dates,duplicates,nonpositive_prices
+NVDA,18,18,,0,0
+MSFT,18,18,,0,0
+GOOGL,18,18,,0,0
+AMZN,18,18,,0,0
+META,18,18,,0,0
+SPY,18,18,,0,0

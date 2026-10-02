@@ -1,0 +1,71 @@
+{
+  "version": "ai-framing-boundaries-v1",
+  "scope": "Transparent phrase evidence in primary text; categories overlap. Unclassified is not sentiment-neutral. A risk mention is not an endorsement or negative sentiment.",
+  "categories": {
+    "existential_safety": [
+      {
+        "id": "s1",
+        "pattern": "\\b(?:existential risks?|extinction|human extinction|loss of control|lose control|out of control|superintelligence|superintelligent|AI safety|AI alignment|catastrophic risks?)\\b"
+      },
+      {
+        "id": "s2",
+        "pattern": "\\b(?:dangerous misuse|bioweapons?|biological weapons?|autonomous weapons?|killer robots?|weaponization|weaponisation|rogue AI|AI apocalypse|AI doom|doomsday|humanity.{0,25}(?:destroy|threat)|(?:destroy|threat).{0,25}humanity)\\b"
+      }
+    ],
+    "economic_social": [
+      {
+        "id": "e1",
+        "pattern": "\\b(?:job losses?|job cuts?|job displacement|job security|mass unemployment|unemployment|layoffs?|laid off|lose (?:their |our |your |my )?jobs?|replace (?:workers|humans|people)|replacing (?:workers|humans|people)|taking (?:our |your |their )?jobs?|steal (?:our |your |their )?jobs?)\\b"
+      },
+      {
+        "id": "e2",
+        "pattern": "\\b(?:discrimination|discriminatory|racial bias|gender bias|algorithmic bias|privacy|surveillance|misinformation|disinformation|deepfakes?|fake news|copyright|plagiarism|exploitation|inequality|deception|scams?|fraud|data theft|data breaches?)\\b"
+      },
+      {
+        "id": "e3",
+        "pattern": "\\b(?:mental health|suicides?|suicidal|child safety|child abuse|addiction|environmental impact|carbon emissions|water consumption|energy consumption)\\b"
+      }
+    ],
+    "benefits_opportunity": [
+      {
+        "id": "b1",
+        "pattern": "\\b(?:productivity|productive|efficiency|efficient|scientific (?:progress|discovery|discoveries|breakthroughs?)|drug discovery|medical breakthroughs?|accelerate research|cure diseases?|save lives|saving lives)\\b"
+      },
+      {
+        "id": "b2",
+        "pattern": "\\b(?:useful|helpful|beneficial|benefits?|opportunit(?:y|ies)|AI adoption|adopting AI|save time|saving time|time saving|automation|automate|automating|innovation|innovative|empower|empowering|improve.{0,20}(?:learning|healthcare|education|accessibility)|enhance.{0,20}(?:learning|healthcare|education|accessibility))\\b"
+      }
+    ],
+    "investment_valuation": [
+      {
+        "id": "i1",
+        "pattern": "\\b(?:bubbles?|overvalued|overvaluation|overpriced|excessive spending|overspending|overinvestment|overinvesting|financial losses?|losing money|lose money|unprofitable|profitability concerns|unsustainable spending|cash burn|burning cash|return on investment|ROI|capital expenditure|capex)\\b"
+      },
+      {
+        "id": "i2",
+        "pattern": "\\b(?:market crash|stock crash|stocks? (?:plunge|plunging|collapse|collapsing)|investment risks?|valuation risks?|debt risks?|write[- ]offs?)\\b"
+      }
+    ]
+  },
+  "context_exclusions": [
+    {
+      "pattern": "\\b(?:privacy policy|privacy settings|cookie policy)\\b",
+      "reason": "boilerplate or settings rather than substantive privacy framing"
+    },
+    {
+      "pattern": "\\b(?:bubble (?:tea|bath|gum)|soap bubbles?|speech bubbles?)\\b",
+      "reason": "nonfinancial literal bubble"
+    }
+  ],
+  "stance": {
+    "rejects": "\\b(?:no|not|never|isn['’]t|aren['’]t|won['’]t|doesn['’]t|don['’]t|without|debunk(?:ed|s)?|dismiss(?:ed|es)?|overblown|exaggerated)\\b(?:\\W+\\w+){0,5}\\W*$",
+    "reports": "\\b(?:says?|said|reports?|reported|warns?|warned|according to|claims?|claimed|researchers?|study|studies|experts?|critics?|survey)\\b",
+    "endorses": "\\b(?:I (?:believe|think|fear|worry)|we (?:must|need to)|must (?:address|prevent|stop)|is a (?:real|serious) (?:risk|threat)|poses? a (?:risk|threat)|will (?:destroy|replace|eliminate)|threatens?)\\b"
+  },
+  "limitations": [
+    "Phrase matches do not establish that the framing targets AI in every clause.",
+    "Statements, attribution, negation scope and sarcasm can be ambiguous; uncertain is retained.",
+    "Economic/social environmental and mental-health harms are grouped together.",
+    "Benefits and investment mentions may be descriptive rather than evaluative; ROI/capex alone may be a contextual false positive."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "guardian_candidates": 387,
+  "guardian_included": 184,
+  "guardian_pagination_complete": true,
+  "guardian_validation_sample": 30,
+  "market_rows": 108,
+  "market_expected_sessions": 18,
+  "market_audit": [
+    {
+      "symbol": "NVDA",
+      "expected_sessions": 18,
+      "rows": 18,
+      "missing_dates": "",
+      "duplicates": 0,
+      "nonpositive_prices": 0
+    },
+    {
+      "symbol": "MSFT",
+      "expected_sessions": 18,
+      "rows": 18,
+      "missing_dates": "",
+      "duplicates": 0,
+      "nonpositive_prices": 0
+    },
+    {
+      "symbol": "GOOGL",
+      "expected_sessions": 18,
+      "rows": 18,
+      "missing_dates": "",
+      "duplicates": 0,
+      "nonpositive_prices": 0
+    },
+    {
+      "symbol": "AMZN",
+      "expected_sessions": 18,
+      "rows": 18,
+      "missing_dates": "",
+      "duplicates": 0,
+      "nonpositive_prices": 0
+    },
+    {
+      "symbol": "META",
+      "expected_sessions": 18,
+      "rows": 18,
+      "missing_dates": "",
+      "duplicates": 0,
+      "nonpositive_prices": 0
+    },
+    {
+      "symbol": "SPY",
+      "expected_sessions": 18,
+      "rows": 18,
+      "missing_dates": "",
+      "duplicates": 0,
+      "nonpositive_prices": 0
+    }
+  ]
+}

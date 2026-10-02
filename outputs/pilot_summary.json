@@ -1,0 +1,135 @@
+{
+  "year": 2026,
+  "window_status": "provisional",
+  "guardian_articles": 31,
+  "x_posts": 0,
+  "market_rows": 24,
+  "audit": [
+    {
+      "source": "Guardian",
+      "route": "Open Platform /search",
+      "status": "cached success",
+      "date_coverage_tested": "2026-09-08",
+      "text_availability": "9 articles; fields inspected",
+      "timestamp_availability": "webPublicationDate",
+      "limitations": "Total hits 10; first 10 only; non-articles excluded; relevance not validated"
+    },
+    {
+      "source": "Guardian",
+      "route": "Open Platform /search",
+      "status": "cached success",
+      "date_coverage_tested": "2026-09-19",
+      "text_availability": "5 articles; fields inspected",
+      "timestamp_availability": "webPublicationDate",
+      "limitations": "Total hits 7; first 10 only; non-articles excluded; relevance not validated"
+    },
+    {
+      "source": "Guardian",
+      "route": "Open Platform /search",
+      "status": "cached success",
+      "date_coverage_tested": "2026-09-30",
+      "text_availability": "8 articles; fields inspected",
+      "timestamp_availability": "webPublicationDate",
+      "limitations": "Total hits 23; first 10 only; non-articles excluded; relevance not validated"
+    },
+    {
+      "source": "Guardian",
+      "route": "Open Platform /search focused newest",
+      "status": "success",
+      "date_coverage_tested": "2026-09-30",
+      "text_availability": "9 articles; fields inspected",
+      "timestamp_availability": "webPublicationDate",
+      "limitations": "Total hits 15; first 10 only; non-articles excluded; relevance not validated"
+    },
+    {
+      "source": "X",
+      "route": "API v2 full-archive search",
+      "status": "untested: no bearer credential",
+      "date_coverage_tested": "Sep 8/19/30",
+      "text_availability": "none",
+      "timestamp_availability": "none",
+      "limitations": "Only Guardian key found in project .env; no recognized X bearer environment variables"
+    },
+    {
+      "source": "Market",
+      "route": "Yahoo chart NVDA",
+      "status": "success",
+      "date_coverage_tested": "2026-09-04;2026-09-08;2026-09-18;2026-09-30",
+      "text_availability": "not applicable",
+      "timestamp_availability": "exchange-local dates",
+      "limitations": "Adjusted sample rows 4; preceding close 2026-09-04"
+    },
+    {
+      "source": "Market",
+      "route": "Yahoo chart MSFT",
+      "status": "success",
+      "date_coverage_tested": "2026-09-04;2026-09-08;2026-09-18;2026-09-30",
+      "text_availability": "not applicable",
+      "timestamp_availability": "exchange-local dates",
+      "limitations": "Adjusted sample rows 4; preceding close 2026-09-04"
+    },
+    {
+      "source": "Market",
+      "route": "Yahoo chart GOOGL",
+      "status": "success",
+      "date_coverage_tested": "2026-09-04;2026-09-08;2026-09-18;2026-09-30",
+      "text_availability": "not applicable",
+      "timestamp_availability": "exchange-local dates",
+      "limitations": "Adjusted sample rows 4; preceding close 2026-09-04"
+    },
+    {
+      "source": "Market",
+      "route": "Yahoo chart AMZN",
+      "status": "success",
+      "date_coverage_tested": "2026-09-04;2026-09-08;2026-09-18;2026-09-30",
+      "text_availability": "not applicable",
+      "timestamp_availability": "exchange-local dates",
+      "limitations": "Adjusted sample rows 4; preceding close 2026-09-04"
+    },
+    {
+      "source": "Market",
+      "route": "Yahoo chart META",
+      "status": "success",
+      "date_coverage_tested": "2026-09-04;2026-09-08;2026-09-18;2026-09-30",
+      "text_availability": "not applicable",
+      "timestamp_availability": "exchange-local dates",
+      "limitations": "Adjusted sample rows 4; preceding close 2026-09-04"
+    },
+    {
+      "source": "Market",
+      "route": "Yahoo chart SPY",
+      "status": "success",
+      "date_coverage_tested": "2026-09-04;2026-09-08;2026-09-18;2026-09-30",
+      "text_availability": "not applicable",
+      "timestamp_availability": "exchange-local dates",
+      "limitations": "Adjusted sample rows 4; preceding close 2026-09-04"
+    },
+    {
+      "source": "X",
+      "route": "Original post via web reader",
+      "status": "failed: HTTP 403",
+      "date_coverage_tested": "candidate Sep 8 Eastern / Sep 9 UTC 2026",
+      "text_availability": "not retrieved",
+      "timestamp_availability": "post ID supplies candidate UTC time",
+      "limitations": "https://x.com/EvanHub/status/2097497037956891126; no original observation saved"
+    },
+    {
+      "source": "X",
+      "route": "Web search dated broad AI queries",
+      "status": "no results",
+      "date_coverage_tested": "2026-09-08;2026-09-19;2026-09-30",
+      "text_availability": "none",
+      "timestamp_availability": "none",
+      "limitations": "Search snippets never counted as dataset"
+    },
+    {
+      "source": "X",
+      "route": "Third-party scrapers / browser logged-in search",
+      "status": "untested",
+      "date_coverage_tested": "",
+      "text_availability": "none",
+      "timestamp_availability": "none",
+      "limitations": "No scraping infrastructure or restriction bypass attempted"
+    }
+  ]
+}

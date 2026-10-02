@@ -1,0 +1,25 @@
+{
+  "version": "milestone4-frozen-v1",
+  "year_status": "2026 provisional; authoritative assignment evidence unresolved",
+  "study_sessions": "2026-09-08 through 2026-09-30",
+  "preceding_close": "2026-09-04",
+  "timezone": "America/New_York",
+  "calendar": "Weekdays September 4–30 excluding September 7 Labor Day; regular 16:00 Eastern closes, no early closes in this interval; cross-check cached session grid",
+  "calendar_source": "https://www.nyse.com/trade/hours-calendars",
+  "returns": "Vendor-adjusted close_t / adjusted close_previous_session - 1; five-company basket mean of constituent simple returns, equal weights daily rebalanced; spread=basket minus SPY. Compound basket/SPY individually; compounded spread is a synthetic spread index, not the difference of cumulative returns or a self-financing portfolio.",
+  "alignment": "(previous session close, current session close]; actual offset-aware original timestamps; weekends included; after September 30 close excluded",
+  "coverage": "Every intersected Eastern date must have completed collection under its frozen source protocol. September 8 is unavailable because September 4–7 are uncollected. Completed bounded X days with 19/20 shortfalls remain observed with explicit shortfall flags; completed protocol is not exhaustive platform or intraday coverage. No observed channel records means missing mean, not zero.",
+  "primary": {"name":"primary_combined_basket_1lag","outcome":"basket_return","sentiment":"combined_mean","lags":1,"unrestricted":"return_t = constant + return_(t-1) + delta_sentiment_(t-1)","restricted":"return_t = constant + return_(t-1)"},
+  "secondary": [
+    {"name":"secondary_combined_spread_1lag","outcome":"spread_return","sentiment":"combined_mean","lags":1},
+    {"name":"secondary_guardian_basket_1lag","outcome":"basket_return","sentiment":"guardian_mean","lags":1},
+    {"name":"secondary_x_basket_1lag","outcome":"basket_return","sentiment":"x_mean","lags":1},
+    {"name":"sensitivity_dedup_combined_basket_1lag","outcome":"basket_return","sentiment":"combined_mean_dedup","lags":1},
+    {"name":"sensitivity_combined_basket_2lag","outcome":"basket_return","sentiment":"combined_mean","lags":2,"conditional":"Estimate only when unrestricted residual degrees of freedom are positive; restricted has two return lags, unrestricted also has two sentiment-change lags"}
+  ],
+  "change": "sentiment_t - sentiment_(t-1), only on adjacent complete valid trading-session grid rows; never close gaps by dropping missing rows",
+  "tests": "Manual least-squares restricted/unrestricted RSS F test; joint null all sentiment-change lag coefficients zero. Cross-check statsmodels OLS compare_f_test and f_test. Conventional unadjusted F p-values; no additional lags/models/baskets, no stationarity claim, no causal inference.",
+  "correlations": "Pearson descriptive only: levels and changes of Guardian, X, combined and dedup-combined against basket and spread; same-session association and next-session association separately, no correlation p-values",
+  "data_caveats": "Bounded X search sample; weak Codex-reviewed sentiment/framing validation; generic text sentiment in AI-related material, not validated AI attitudes; adjusted-price vendor conventions not independently rebuilt",
+  "freeze_timing": "Saved before returns, correlations or regressions were calculated or viewed; existing sentiment scores were already available"
+}

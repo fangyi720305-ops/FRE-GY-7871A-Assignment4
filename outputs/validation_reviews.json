@@ -1,0 +1,546 @@
+[
+  {
+    "channel": "Guardian",
+    "record_id": "technology/2026/sep/29/openai-apology-rogue-agent-hacked-medicare-australian-government-websites",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety",
+      "economic_social"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "negative",
+    "notes": "Hack/agent attack is adverse misuse; privacy implication is contextual. No body needed.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "science/2026/sep/12/openai-mathematicians-millennium-prize-problem",
+    "sentiment": "negative",
+    "framing": [
+      "benefits_opportunity"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "mixed",
+    "notes": "Uneasy/shocked/boasting tone; solving a longstanding maths problem is implicit scientific benefit missed by phrases.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "technology/2026/sep/18/a-critical-moment-concern-uk-is-not-up-to-speed-in-acting-on-ai-risks",
+    "sentiment": "negative",
+    "framing": [],
+    "risk_stance": "uncertain",
+    "ai_attitude": "negative",
+    "notes": "Fear and concern dominate. Generic AI risks do not specify which risk category in this primary text.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "culture/2026/sep/30/seth-meyers-trump-federal-funds-ai",
+    "sentiment": "neutral",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "uncertain",
+    "notes": "Political satire; waterslide quotation is not an identifiable AI attitude.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "education/2026/sep/12/ai-computer-science-graduates-job-prospects-uk-data",
+    "sentiment": "negative",
+    "framing": [
+      "economic_social"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "negative",
+    "notes": "Denting job prospects and falling demand express economic harm; near-zero VADER misses it.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "australia-news/2026/sep/27/sam-altman-openai-dario-amodei-anthropic-senate-inquiry-medicare-hack-rogue-ai-agent-leak",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "negative",
+    "notes": "Rogue-agent incidents motivate inquiry; clinical wording does not make harm neutral.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety",
+      "investment_valuation"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "negative",
+    "notes": "Stock slide and reckless development are adverse; quoted dismissive sick conspiracy is attributed, not endorsed.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "commentisfree/2026/sep/28/ai-extinction-threats",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety"
+    ],
+    "risk_stance": "endorses",
+    "ai_attitude": "negative",
+    "notes": "Extinction threat and knowingly proceeding despite danger outweigh curiosity/profit; VADER positive is misleading.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "film/2026/sep/30/ai-greta-garbo-stars-again-ball-bearing-advert",
+    "sentiment": "positive",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "positive",
+    "notes": "Glamorous roles are positive tone; cultural reuse alone is not a specific listed benefit claim.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "technology/2026/sep/22/ai-doomsday-trump-xi",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety"
+    ],
+    "risk_stance": "uncertain",
+    "ai_attitude": "mixed",
+    "notes": "Freaked out/doomsday concern plus uncertain policy; agree is not positive AI attitude.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety",
+      "economic_social"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "negative",
+    "notes": "Rogue activity and unauthorized image leaks explicitly implicate privacy and loss of control.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "uk-news/2026/sep/16/datacentres-scotland-environmental-assessments-ai-boom",
+    "sentiment": "negative",
+    "framing": [
+      "economic_social"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "negative",
+    "notes": "Environmental assessments and suspended planning convey environmental concern; no evidence of endorsed extinction risk.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "books/2026/sep/09/what-should-my-children-do-by-daniel-susskind-review-the-case-for-embracing-tech-in-the-classroom",
+    "sentiment": "positive",
+    "framing": [
+      "benefits_opportunity"
+    ],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "positive",
+    "notes": "Optimistic educational opportunities are an explicit benefit framing.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "commentisfree/2026/sep/24/open-ai-medicare-records-hacked-australia-cyber-security",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety",
+      "economic_social"
+    ],
+    "risk_stance": "endorses",
+    "ai_attitude": "negative",
+    "notes": "Bleak hack/security shortcomings; opportunity means remediation, not a benefit of AI. Strong protect/demand language inflates VADER.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "business/2026/sep/20/ai-slowdown-calls-collapse-of-bubble-datacentre-tech-firms",
+    "sentiment": "negative",
+    "framing": [
+      "investment_valuation"
+    ],
+    "risk_stance": "endorses",
+    "ai_attitude": "negative",
+    "notes": "Bubble collapse/debt/worry are directly investment-risk framing.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "technology/2026/sep/22/ai-could-be-a-bubble-and-is-not-yet-making-australia-more-productive-michele-bullock-says",
+    "sentiment": "negative",
+    "framing": [
+      "investment_valuation",
+      "benefits_opportunity"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "mixed",
+    "notes": "Bubble/inflation dominate; productivity benefits are discussed but explicitly not yet realized. Benefit flag is a mention, not endorsement.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "technology/2026/sep/14/microsoft-ai-code-of-conduct",
+    "sentiment": "neutral",
+    "framing": [
+      "existential_safety"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "mixed",
+    "notes": "Code of conduct and subordinate AI concern control/safety; service of people gives mild positive vocabulary, but primary is policy reporting.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "science/2026/sep/08/openai-claims-to-have-solved-maths-problem-that-stumped-humans-for-decades",
+    "sentiment": "positive",
+    "framing": [
+      "benefits_opportunity"
+    ],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "positive",
+    "notes": "Claimed solution to a hard maths problem is scientific progress; stumped humans makes VADER falsely negative.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "us-news/2026/sep/19/donald-trump-ai-force",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "negative",
+    "notes": "Fears of out-of-control agents; caution/slowdown contextual, not AI enthusiasm.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "Guardian",
+    "record_id": "australia-news/2026/sep/16/datacentre-giant-accused-of-using-ai-while-lobbying-for-victorian-ministers-support-for-hyperscale-factory",
+    "sentiment": "negative",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "negative",
+    "notes": "Accused/lobbying/alleged errors is adverse; no specific dictionary framing category established.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2098984498595508250",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety"
+    ],
+    "risk_stance": "rejects",
+    "ai_attitude": "negative",
+    "notes": "Rejects doomer narrative while criticizing regulatory capture. Safety framing implicit in doomer; negative attitude is mainly toward Anthropic/regulation.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2102243179898765345",
+    "sentiment": "negative",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "negative",
+    "notes": "Sarcastic book destruction criticism, not a claim of human extinction. Copyright concern only implicit, so no forced category.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2105507700587033014",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety",
+      "benefits_opportunity"
+    ],
+    "risk_stance": "uncertain",
+    "ai_attitude": "mixed",
+    "notes": "Long hostile PR critique with threats to kill communities and explicit support for innovation; unrelated insults heavily affect VADER. Negation is not rejection of innovation.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2101158149101437127",
+    "sentiment": "neutral",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "negative",
+    "notes": "Typo/awkward double negation suggests opposition to Anthropic; weak generic emotional wording. AI attitude can differ from neutral tone.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2103695764082069530",
+    "sentiment": "neutral",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "uncertain",
+    "notes": "Question about blacklisting; no clear valence or categorized harm.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2101878078096167089",
+    "sentiment": "negative",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "uncertain",
+    "notes": "Alleged lawsuit/collusion is adverse; headline lacks specific listed risk type.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2102242856903799011",
+    "sentiment": "positive",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "positive",
+    "notes": "Tribute to mathematician/GPU naming; positive emotion and praise do not directly assert a listed AI benefit.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2102970709802734029",
+    "sentiment": "negative",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "uncertain",
+    "notes": "Not intelligent enough is criticism of state oversight; VADER mishandles multiword negation, not necessarily criticism of AI itself.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2103695816653496579",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety"
+    ],
+    "risk_stance": "rejects",
+    "ai_attitude": "negative",
+    "notes": "Alignment theater/go rogue/grievances critique rejects moralized risk narrative. Reward functions should not turn skeptical tone positive.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2099709407764570148",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "mixed",
+    "notes": "Reports disputed extinction estimates; alarming/scared language yields negative tone while risk endorsement is mixed.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2102608447615475740",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety",
+      "economic_social"
+    ],
+    "risk_stance": "uncertain",
+    "ai_attitude": "mixed",
+    "notes": "Extinction, control, deepfakes/fraud/misinformation explicitly discussed with qualifications. Climate-report correction is not rejection of all AI risks.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2104057957591765228",
+    "sentiment": "negative",
+    "framing": [
+      "economic_social"
+    ],
+    "risk_stance": "rejects",
+    "ai_attitude": "mixed",
+    "notes": "Explicitly rejects human replacement. Evil/defeated language is negative generic tone even though statement defends human agency.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2100795808580804944",
+    "sentiment": "positive",
+    "framing": [
+      "benefits_opportunity"
+    ],
+    "risk_stance": "uncertain",
+    "ai_attitude": "mixed",
+    "notes": "Useful tools praised with caveats; not perfect but useful is not rejection of usefulness. Double negatives and scope defeat simplistic stance.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2104782785030582306",
+    "sentiment": "neutral",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "uncertain",
+    "notes": "In a bubble means social/information isolation, not valuation excess; investment category false positive.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2105145111109890391",
+    "sentiment": "positive",
+    "framing": [
+      "benefits_opportunity",
+      "investment_valuation"
+    ],
+    "risk_stance": "endorses",
+    "ai_attitude": "positive",
+    "notes": "Promotes orbital AI infrastructure advantages while explicitly listing investment/engineering execution risks. Capital expenditure alone is insufficient evidence; benefit claims are mostly paraphrases missed by rules.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2100794629809647664",
+    "sentiment": "negative",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "negative",
+    "notes": "Dangerous cult is company-directed insult. Does not specify extinction/misuse mechanism; no forced existential category.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2098259696943767897",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety",
+      "economic_social"
+    ],
+    "risk_stance": "uncertain",
+    "ai_attitude": "negative",
+    "notes": "Satirical attributed kill-you lines and Meta data collection raise safety/privacy themes; quotations are not literal company statements or author endorsements.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2098984899919204735",
+    "sentiment": "positive",
+    "framing": [
+      "benefits_opportunity"
+    ],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "positive",
+    "notes": "Enthusiastic nursing adoption and patient/education benefits; experts word causes false attribution stance for a personal experience.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2099707229918355624",
+    "sentiment": "neutral",
+    "framing": [],
+    "risk_stance": "not_applicable",
+    "ai_attitude": "uncertain",
+    "notes": "Descriptive international open-source initiative. Lead/intelligence contribute positive VADER but no explicit praise.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  },
+  {
+    "channel": "X",
+    "record_id": "2100431753131196725",
+    "sentiment": "negative",
+    "framing": [
+      "existential_safety",
+      "economic_social"
+    ],
+    "risk_stance": "reports",
+    "ai_attitude": "negative",
+    "notes": "Quoted unauthorized actions and made-up data imply loss of control and misinformation. A.I. safety variant missed initially; neutral/positive word safety masks adverse events.",
+    "reviewer_type": "Codex",
+    "independent_human_review": false,
+    "body_context_used": false
+  }
+]

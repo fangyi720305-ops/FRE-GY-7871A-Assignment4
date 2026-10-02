@@ -1,0 +1,28 @@
+{
+  "sessions_with_returns": 17,
+  "preceding_close": "2026-09-04",
+  "first_return": "2026-09-08",
+  "last_return": "2026-09-30",
+  "basket_cumulative_return": 0.03558908993527732,
+  "spy_cumulative_return": -0.007356960091315479,
+  "cumulative_performance_difference": 0.0429460500265928,
+  "synthetic_compounded_spread": 0.04365999368817697,
+  "individual_cumulative_returns": {
+    "NVDA": -0.007485875827975663,
+    "MSFT": 0.026415873293119452,
+    "GOOGL": 0.016604606922746123,
+    "AMZN": -0.03620755682778687,
+    "META": 0.176698450093695,
+    "SPY": -0.007356960091315479
+  },
+  "daily_rebalancing": true,
+  "basket_weights": {
+    "NVDA": 0.2,
+    "MSFT": 0.2,
+    "GOOGL": 0.2,
+    "AMZN": 0.2,
+    "META": 0.2
+  },
+  "price_convention": "Cached vendor dividend/split adjusted closes; adjustments not independently rebuilt",
+  "spread_convention": "Daily basket return minus SPY return. Its compounded synthetic index is not a self-financing strategy or the difference between cumulative basket and SPY returns."
+}

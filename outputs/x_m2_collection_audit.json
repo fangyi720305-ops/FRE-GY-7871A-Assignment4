@@ -1,0 +1,437 @@
+[
+  {
+    "date": "2026-09-08",
+    "qualified": 20,
+    "unique_inspected": 20,
+    "rejected": {},
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-08+until%3A2026-09-08&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-08 until:2026-09-08",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-08 until:2026-09-08",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-08 until:2026-09-08",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-09",
+    "qualified": 20,
+    "unique_inspected": 21,
+    "rejected": {
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-09+until%3A2026-09-09&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-09 until:2026-09-09",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-09 until:2026-09-09",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-09 until:2026-09-09",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-10",
+    "qualified": 20,
+    "unique_inspected": 23,
+    "rejected": {
+      "no enclosing-text AI relevance": 3
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-10+until%3A2026-09-10&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-10 until:2026-09-10",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-10 until:2026-09-10",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-10 until:2026-09-10",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-11",
+    "qualified": 20,
+    "unique_inspected": 21,
+    "rejected": {
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-11+until%3A2026-09-11&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-11 until:2026-09-11",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-11 until:2026-09-11",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-11 until:2026-09-11",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-12",
+    "qualified": 20,
+    "unique_inspected": 22,
+    "rejected": {
+      "no enclosing-text AI relevance": 2
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-12+until%3A2026-09-12&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-12 until:2026-09-12",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-12 until:2026-09-12",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-12 until:2026-09-12",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-13",
+    "qualified": 20,
+    "unique_inspected": 21,
+    "rejected": {
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-13+until%3A2026-09-13&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-13 until:2026-09-13",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-13 until:2026-09-13",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-13 until:2026-09-13",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-14",
+    "qualified": 19,
+    "unique_inspected": 25,
+    "rejected": {
+      "no enclosing-text AI relevance": 6
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-14+until%3A2026-09-14&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-14 until:2026-09-14",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-14 until:2026-09-14",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-14 until:2026-09-14",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-15",
+    "qualified": 20,
+    "unique_inspected": 21,
+    "rejected": {
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-15+until%3A2026-09-15&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-15 until:2026-09-15",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-15 until:2026-09-15",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-15 until:2026-09-15",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-16",
+    "qualified": 19,
+    "unique_inspected": 25,
+    "rejected": {
+      "no enclosing-text AI relevance": 5,
+      "author/status mismatch": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-16+until%3A2026-09-16&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-16 until:2026-09-16",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-16 until:2026-09-16",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-16 until:2026-09-16",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-17",
+    "qualified": 20,
+    "unique_inspected": 23,
+    "rejected": {
+      "no enclosing-text AI relevance": 3
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-17+until%3A2026-09-17&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-17 until:2026-09-17",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-17 until:2026-09-17",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-17 until:2026-09-17",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-18",
+    "qualified": 20,
+    "unique_inspected": 20,
+    "rejected": {},
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-18+until%3A2026-09-18&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-18 until:2026-09-18",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-18 until:2026-09-18",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-18 until:2026-09-18",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-19",
+    "qualified": 20,
+    "unique_inspected": 24,
+    "rejected": {
+      "no enclosing-text AI relevance": 5
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-19+until%3A2026-09-19&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-19 until:2026-09-19",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-19 until:2026-09-19",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-19 until:2026-09-19",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-20",
+    "qualified": 20,
+    "unique_inspected": 24,
+    "rejected": {
+      "no enclosing-text AI relevance": 4
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-20+until%3A2026-09-20&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-20 until:2026-09-20",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-20 until:2026-09-20",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-20 until:2026-09-20",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-21",
+    "qualified": 20,
+    "unique_inspected": 25,
+    "rejected": {
+      "no enclosing-text AI relevance": 5
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-21+until%3A2026-09-21&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-21 until:2026-09-21",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-21 until:2026-09-21",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-21 until:2026-09-21",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-22",
+    "qualified": 20,
+    "unique_inspected": 23,
+    "rejected": {
+      "no enclosing-text AI relevance": 3
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-22+until%3A2026-09-22&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-22 until:2026-09-22",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-22 until:2026-09-22",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-22 until:2026-09-22",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-23",
+    "qualified": 20,
+    "unique_inspected": 21,
+    "rejected": {
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-23+until%3A2026-09-23&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-23 until:2026-09-23",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-23 until:2026-09-23",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-23 until:2026-09-23",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-24",
+    "qualified": 20,
+    "unique_inspected": 23,
+    "rejected": {
+      "truncated/unmatched original": 2,
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-24+until%3A2026-09-24&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-24 until:2026-09-24",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-24 until:2026-09-24",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-24 until:2026-09-24",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-25",
+    "qualified": 20,
+    "unique_inspected": 22,
+    "rejected": {
+      "no enclosing-text AI relevance": 2
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-25+until%3A2026-09-25&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-25 until:2026-09-25",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-25 until:2026-09-25",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-25 until:2026-09-25",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-26",
+    "qualified": 20,
+    "unique_inspected": 21,
+    "rejected": {
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-26+until%3A2026-09-26&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-26 until:2026-09-26",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-26 until:2026-09-26",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-26 until:2026-09-26",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-27",
+    "qualified": 20,
+    "unique_inspected": 22,
+    "rejected": {
+      "no enclosing-text AI relevance": 2
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-27+until%3A2026-09-27&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-27 until:2026-09-27",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-27 until:2026-09-27",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-27 until:2026-09-27",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-28",
+    "qualified": 20,
+    "unique_inspected": 21,
+    "rejected": {
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-28+until%3A2026-09-28&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-28 until:2026-09-28",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-28 until:2026-09-28",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-28 until:2026-09-28",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-29",
+    "qualified": 20,
+    "unique_inspected": 21,
+    "rejected": {
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-29+until%3A2026-09-29&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-29 until:2026-09-29",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-29 until:2026-09-29",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-29 until:2026-09-29",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  },
+  {
+    "date": "2026-09-30",
+    "qualified": 20,
+    "unique_inspected": 20,
+    "rejected": {
+      "no enclosing-text AI relevance": 1
+    },
+    "final_url": "https://x.com/search?q=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+Anthropic%29+lang%3Aen+-filter%3Aretweets+since%3A2026-09-30+until%3A2026-09-30&f=live&src=typed_query",
+    "url_query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-30 until:2026-09-30",
+    "search_box": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-30 until:2026-09-30",
+    "selected_tab": "true",
+    "timeline_labels": [
+      "Timeline: Search timeline"
+    ],
+    "no_results": false,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR Anthropic) lang:en -filter:retweets since:2026-09-30 until:2026-09-30",
+    "boundary_rule": "actual publication timestamp converted to America/New_York must equal requested day; observed until includes that local day",
+    "status": "pilot retrieved"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "input_hashes_before": {
+    "data\\processed\\market_panel.csv": "d578b4626e387772b178bc1ae3d35948a1b4e488fa3594e3bd6d6c7dc4c9771f",
+    "data\\processed\\scored_records.jsonl": "8470a4796525b0f9efa0057315e32fcbd5c51380a7900ab008ce552cff2a708c",
+    "data\\processed\\x_unique_text_sensitivity.csv": "4c677eb2bbf883691a58bba507207bb6e28052f9deeafebf6805094437f535e0",
+    "outputs\\guardian_daily_coverage.csv": "cda2fca8d6da5b4009ebd40fcf051cc20db3cc329669fa0205e4d9277025fa8b",
+    "outputs\\x_daily_coverage.csv": "3ff5de6a68507245d3d900dfb36e87ceee84e2072e94fd48896bf2627bc7baf5",
+    "outputs\\milestone2_summary.json": "b86fe7800a4071e3d72ee6539e4bbecc009be0c05f9b2782faa9f27ba084fa15",
+    "outputs\\milestone3_summary.json": "706958e45eab99d3ea50c5284e5bf0110d9809fb7b9824a8ddcc28c655fef897",
+    "outputs\\scoring_method.json": "800391321a71ebe47b6b69cfec5d9d515e52e8b84031c97c6f95fa37613609d1"
+  },
+  "input_hashes_after": {
+    "data\\processed\\market_panel.csv": "d578b4626e387772b178bc1ae3d35948a1b4e488fa3594e3bd6d6c7dc4c9771f",
+    "data\\processed\\scored_records.jsonl": "8470a4796525b0f9efa0057315e32fcbd5c51380a7900ab008ce552cff2a708c",
+    "data\\processed\\x_unique_text_sensitivity.csv": "4c677eb2bbf883691a58bba507207bb6e28052f9deeafebf6805094437f535e0",
+    "outputs\\guardian_daily_coverage.csv": "cda2fca8d6da5b4009ebd40fcf051cc20db3cc329669fa0205e4d9277025fa8b",
+    "outputs\\x_daily_coverage.csv": "3ff5de6a68507245d3d900dfb36e87ceee84e2072e94fd48896bf2627bc7baf5",
+    "outputs\\milestone2_summary.json": "b86fe7800a4071e3d72ee6539e4bbecc009be0c05f9b2782faa9f27ba084fa15",
+    "outputs\\milestone3_summary.json": "706958e45eab99d3ea50c5284e5bf0110d9809fb7b9824a8ddcc28c655fef897",
+    "outputs\\scoring_method.json": "800391321a71ebe47b6b69cfec5d9d515e52e8b84031c97c6f95fa37613609d1"
+  },
+  "unchanged_inputs": true,
+  "spec_sha256": "23327616cfe320e13af577e8f2495585843b103db2bf2a0a7b6c36a7f5c99191",
+  "checks": {
+    "complete_price_grid": true,
+    "simple_return_compounding": true,
+    "equal_weight_daily_basket": true,
+    "session_grid_retained": true,
+    "timestamp_window_matching": true,
+    "no_future_text_in_predictors": true,
+    "lag_changes_adjacent_sessions_only": true,
+    "dedup_same_alignment": true,
+    "missing_not_zero": true,
+    "manual_statsmodels_crosscheck_all_successful_tests": true
+  },
+  "attempted_tests": 6,
+  "failures": [],
+  "independent_output_checks": {
+    "return_ratios_compounding": true,
+    "all_original_timestamp_assignments": true,
+    "window_means_and_counts": true,
+    "dedup_ids_means": true,
+    "full_grid_adjacent_delta_and_lag_values": true,
+    "predictor_availability_before_target_window": true,
+    "test_dates_and_degrees_of_freedom": true,
+    "existing_inputs_unchanged": true
+  }
+}

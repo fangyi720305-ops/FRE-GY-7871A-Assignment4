@@ -1,0 +1,51 @@
+[
+  {
+    "route": "facebook_public_metaai",
+    "status": "200",
+    "url": "https://www.facebook.com/MetaAI/",
+    "bytes": 515756,
+    "content_type": "text/html; charset=\"utf-8\""
+  },
+  {
+    "route": "reddit_historical_search",
+    "status": "HTTP 403",
+    "url": "https://www.reddit.com/search.json?q=%28AI+OR+%22artificial+intelligence%22+OR+Anthropic+OR+ChatGPT+OR+%22generative+AI%22%29&sort=new&t=month&limit=100",
+    "bytes": 0,
+    "content_type": ""
+  },
+  {
+    "route": "hf_metadata",
+    "status": "200",
+    "url": "https://huggingface.co/api/datasets/SinclairSchneider/tweets_sample_2026",
+    "bytes": 5798,
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "route": "hf_readme",
+    "status": "200",
+    "url": "https://huggingface.co/datasets/SinclairSchneider/tweets_sample_2026/raw/main/README.md",
+    "bytes": 11048,
+    "content_type": "text/plain; charset=utf-8"
+  },
+  {
+    "route": "reddit_start",
+    "status": "HTTP 403",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w5h9se.json?limit=20",
+    "bytes": 0,
+    "content_type": ""
+  },
+  {
+    "route": "reddit_middle",
+    "status": "HTTP 403",
+    "url": "https://www.reddit.com/r/philosophy/comments/1wktr7b.json?limit=20",
+    "bytes": 0,
+    "content_type": ""
+  },
+  {
+    "route": "reddit_end",
+    "status": "HTTP 403",
+    "url": "https://www.reddit.com/r/LaGazzettadiKyiv/comments/1wubzmb.json?limit=20",
+    "bytes": 0,
+    "content_type": ""
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "x_records": 458,
+  "x_days_at_target": 21,
+  "x_shortfall_dates": [
+    "2026-09-14",
+    "2026-09-16"
+  ],
+  "x_validation_failures": 0,
+  "x_exact_duplicate_groups": 6,
+  "x_exact_duplicate_extra_records": 10,
+  "guardian_candidates": 387,
+  "guardian_clean": 186,
+  "guardian_daily_min": 3,
+  "guardian_daily_max": 17,
+  "guardian_zero_dates": [],
+  "guardian_pagination_complete": true,
+  "guardian_validation_reviewed": 30,
+  "guardian_initial_review_agreement": 28,
+  "guardian_screen_corrections": 4,
+  "market_records": 108,
+  "market_complete": true,
+  "year_status": "provisional 2026; authoritative assignment evidence unavailable",
+  "readiness": "ready for Milestone 3 with documented sampling limits",
+  "guardian_missing_body": 0,
+  "guardian_missing_timestamp": 0,
+  "guardian_missing_url": 0,
+  "credential_scan_pass": true
+}

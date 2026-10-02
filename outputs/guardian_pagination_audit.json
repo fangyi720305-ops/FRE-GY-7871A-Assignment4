@@ -1,0 +1,106 @@
+[
+  {
+    "route": "broad",
+    "page": 1,
+    "status": "cached",
+    "total": 342,
+    "pages": 7,
+    "returned": 50
+  },
+  {
+    "route": "broad",
+    "page": 2,
+    "status": "cached",
+    "total": 342,
+    "pages": 7,
+    "returned": 50
+  },
+  {
+    "route": "broad",
+    "page": 3,
+    "status": "cached",
+    "total": 342,
+    "pages": 7,
+    "returned": 50
+  },
+  {
+    "route": "broad",
+    "page": 4,
+    "status": "cached",
+    "total": 342,
+    "pages": 7,
+    "returned": 50
+  },
+  {
+    "route": "broad",
+    "page": 5,
+    "status": "cached",
+    "total": 342,
+    "pages": 7,
+    "returned": 50
+  },
+  {
+    "route": "broad",
+    "page": 6,
+    "status": "cached",
+    "total": 342,
+    "pages": 7,
+    "returned": 50
+  },
+  {
+    "route": "broad",
+    "page": 7,
+    "status": "cached",
+    "total": 342,
+    "pages": 7,
+    "returned": 42
+  },
+  {
+    "route": "tag",
+    "page": 1,
+    "status": "cached",
+    "total": 0,
+    "pages": 0,
+    "returned": 0
+  },
+  {
+    "route": "tag_resolved",
+    "page": 1,
+    "status": "success",
+    "total": 210,
+    "pages": 5,
+    "returned": 50
+  },
+  {
+    "route": "tag_resolved",
+    "page": 2,
+    "status": "success",
+    "total": 210,
+    "pages": 5,
+    "returned": 50
+  },
+  {
+    "route": "tag_resolved",
+    "page": 3,
+    "status": "success",
+    "total": 210,
+    "pages": 5,
+    "returned": 50
+  },
+  {
+    "route": "tag_resolved",
+    "page": 4,
+    "status": "success",
+    "total": 210,
+    "pages": 5,
+    "returned": 50
+  },
+  {
+    "route": "tag_resolved",
+    "page": 5,
+    "status": "success",
+    "total": 210,
+    "pages": 5,
+    "returned": 10
+  }
+]

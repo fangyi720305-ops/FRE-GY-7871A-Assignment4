@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path');const {chromium}=require('C:/Users/fangyi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');const {collect,ready,challenge}=require('./x_debug.cjs');const root=path.resolve(__dirname,'..');
+(async()=>{const c=await chromium.launchPersistentContext(path.join(root,'.browser-profile/x-pilot'),{headless:false,channel:'chrome',viewport:{width:1280,height:900}});
+try{const p=await c.newPage();await p.goto('https://x.com/search-advanced',{waitUntil:'domcontentloaded'});await p.locator('input[name="allOfTheseWords"]').waitFor({timeout:15000});await challenge(p);
+ await p.locator('input[name="allOfTheseWords"]').fill('AI');
+ const selects=p.locator('select');for(const [i,v] of [[1,'9'],[2,'19'],[3,'2026'],[4,'9'],[5,'20'],[6,'2026']])await selects.nth(i).selectOption(v);
+ const values=await p.locator('input[name="allOfTheseWords"],input[name="From"],input[name="To"],select').evaluateAll(ns=>ns.map(n=>({name:n.name,tag:n.tagName,value:n.value})));
+ const buttons=await p.getByRole('button',{name:'Search',exact:true}).count();if(buttons!==1)throw new Error('Search button missing or ambiguous');await p.getByRole('button',{name:'Search',exact:true}).click();
+ await p.locator('input[data-testid="SearchBox_Search_Input"]').waitFor({timeout:15000});const q=await p.locator('input[data-testid="SearchBox_Search_Input"]').inputValue();
+ fs.writeFileSync(path.join(root,'outputs/x_advanced_generated_query.json'),JSON.stringify({form_values:values,generated_query:q,final_url:p.url()},null,2));console.log(JSON.stringify({advanced_generated_query:q}));
+ await collect(p,q,'advanced','2026-09-19','2026-09-20',false);
+ await collect(await c.newPage(),'AI since:2026-09-08 until:2026-10-01','broad','2026-09-08','2026-10-01');
+ await collect(await c.newPage(),'AI since:2026-09-19 until:2026-09-19','same_day_until','2026-09-19','2026-09-20');
+}finally{await c.close();}})().catch(e=>console.log(JSON.stringify({stopped:true,error_type:e.name,reason:e.message==='AccessChallenge'?'access challenge':'operation failed; details suppressed'})));

@@ -1,0 +1,18 @@
+﻿source,route,status,date_coverage_tested,text_availability,timestamp_availability,limitations
+Guardian,Open Platform /search,cached success,2026-09-08,9 articles; fields inspected,webPublicationDate,Total hits 10; first 10 only; non-articles excluded; relevance not validated
+Guardian,Open Platform /search,cached success,2026-09-19,5 articles; fields inspected,webPublicationDate,Total hits 7; first 10 only; non-articles excluded; relevance not validated
+Guardian,Open Platform /search,cached success,2026-09-30,8 articles; fields inspected,webPublicationDate,Total hits 23; first 10 only; non-articles excluded; relevance not validated
+Guardian,Open Platform /search focused newest,success,2026-09-30,9 articles; fields inspected,webPublicationDate,Total hits 15; first 10 only; non-articles excluded; relevance not validated
+X,API v2 full-archive search,untested: no bearer credential,Sep 8/19/30,none,none,Only Guardian key found in project .env; no recognized X bearer environment variables
+Market,Yahoo chart NVDA,success,2026-09-04;2026-09-08;2026-09-18;2026-09-30,not applicable,exchange-local dates,Adjusted sample rows 4; preceding close 2026-09-04
+Market,Yahoo chart MSFT,success,2026-09-04;2026-09-08;2026-09-18;2026-09-30,not applicable,exchange-local dates,Adjusted sample rows 4; preceding close 2026-09-04
+Market,Yahoo chart GOOGL,success,2026-09-04;2026-09-08;2026-09-18;2026-09-30,not applicable,exchange-local dates,Adjusted sample rows 4; preceding close 2026-09-04
+Market,Yahoo chart AMZN,success,2026-09-04;2026-09-08;2026-09-18;2026-09-30,not applicable,exchange-local dates,Adjusted sample rows 4; preceding close 2026-09-04
+Market,Yahoo chart META,success,2026-09-04;2026-09-08;2026-09-18;2026-09-30,not applicable,exchange-local dates,Adjusted sample rows 4; preceding close 2026-09-04
+Market,Yahoo chart SPY,success,2026-09-04;2026-09-08;2026-09-18;2026-09-30,not applicable,exchange-local dates,Adjusted sample rows 4; preceding close 2026-09-04
+X,Original post via web reader,failed: HTTP 403,candidate Sep 8 Eastern / Sep 9 UTC 2026,not retrieved,post ID supplies candidate UTC time,https://x.com/EvanHub/status/2097497037956891126; no original observation saved
+X,Web search dated broad AI queries,no results,2026-09-08;2026-09-19;2026-09-30,none,none,Search snippets never counted as dataset
+X,Third-party scrapers / browser logged-in search,untested,,none,none,No scraping infrastructure or restriction bypass attempted
+Guardian,cached complete broad query + resolved AI tag pagination,success,2026-09-08 through 2026-09-30 Eastern,186 complete article bodies/headlines/trails,186 original timestamps,387 candidates; 30 stratified relevance checks; provisional year
+X,authenticated bounded Latest sample; existing profile,success with sampling shortfalls,all 23 Eastern dates Sep 8–30 2026,458 complete enclosing original texts,458 validated timestamps,19 posts Sep 14/16; 20 otherwise; not representative/complete; exact duplicate sensitivity dataset
+Market,existing Yahoo adjusted-price caches,success,18 sessions Sep 4–30 2026,not applicable,108 symbol-date observations,vendor adjustment factors not independently rebuilt; no imputation

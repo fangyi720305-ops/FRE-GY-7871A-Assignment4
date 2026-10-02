@@ -1,0 +1,26 @@
+{
+  "inputs_sha256": {
+    "guardian_clean.csv": "2df0de0af1cdb2f78c65b52d53e76abc266aaa2b8db25a34b4af430429858be4",
+    "x_clean.csv": "2829f6c8d3b88cb86f37c6ad7d5d7158b083b0e8e22782688eb7f5f5083ed353",
+    "x_clean.jsonl": "d56b38701b8aaf666ed6f4394c6d9a11c6006ce8257f3676e18b8e5eb5f4b8c3",
+    "x_unique_text_sensitivity.csv": "4c677eb2bbf883691a58bba507207bb6e28052f9deeafebf6805094437f535e0",
+    "market_panel.csv": "d578b4626e387772b178bc1ae3d35948a1b4e488fa3594e3bd6d6c7dc4c9771f"
+  },
+  "validated_records": 644,
+  "daily_channel_rows": 46,
+  "combined_days": 23,
+  "review_records": 40,
+  "checks": {
+    "record_completeness": true,
+    "source_x_text_author_url_timestamp_preserved": true,
+    "eastern_window_and_daily_assignment": true,
+    "daily_counts_and_denominators": true,
+    "class_shares_sum_to_one": true,
+    "combined_half_weights": true,
+    "sensitivity_ids_match_448_record_input": true,
+    "missing_values_imputed": false,
+    "market_data_accessed": false
+  },
+  "figures": "visually reviewed PNG drafts; SVG versions also saved",
+  "packages": "3.3.2"
+}

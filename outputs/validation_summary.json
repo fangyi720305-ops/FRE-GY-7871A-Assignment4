@@ -1,0 +1,38 @@
+{
+  "reviewer": "Codex",
+  "independent_human_validation": false,
+  "sample_n": 40,
+  "channel_n": 20,
+  "selection": "Fixed seed 787103; diagnostic sentiment/framing strata followed by fixed-seed fill; exact 40-ID manifest frozen before review; sample is not prevalence-weighted or a representative accuracy estimate",
+  "primary_text_only_review": true,
+  "body_context_used": false,
+  "general_sentiment_agreement_n": 25,
+  "general_sentiment_agreement": 0.625,
+  "by_channel": {
+    "Guardian": {
+      "n": 20,
+      "sentiment_agreement": 0.5,
+      "initial_framing_exact_agreement": 0.5,
+      "final_framing_exact_agreement": 0.6
+    },
+    "X": {
+      "n": 20,
+      "sentiment_agreement": 0.75,
+      "initial_framing_exact_agreement": 0.65,
+      "final_framing_exact_agreement": 0.65
+    }
+  },
+  "framing_exact_agreement_n": 25,
+  "error_types": [
+    "VADER: positive vocabulary such as agree, protect, safety, curiosity and profit can dominate adverse AI-risk context",
+    "VADER: scientific problem solved is penalized by stumped; job-prospect declines can score near neutral",
+    "Negation scope: not intelligent enough; not perfect but useful; double negatives",
+    "Quotation/attribution/satire: risk statement quoted, disputed or mocked is not endorsement",
+    "Framing undercoverage: paraphrased scientific advances, declining job prospects, harms/control language not matching fixed phrases",
+    "Framing false positives: opportunity to repair harm; social-information bubble rather than valuation bubble; capex alone does not establish financial risk",
+    "Stance false positives: experts can refer to workshop attendees; lexical negation scope can reject the wrong proposition",
+    "Long X posts mix AI commentary with company criticism, PR insults, politics and unrelated emotion/financial vocabulary"
+  ],
+  "one_correction": "One correction: recognize orthographic/entity variants of existing control/safety concepts (out-of-control, A.I. safety/alignment, rogue agents). No sentiment tuning; other contextual errors remain limitations.",
+  "conclusion": "Diagnostic agreement is limited. Preserve the generic VADER measure as text sentiment in AI-related material; do not describe it as a validated AI-specific attitude or investment-sentiment measure. Rule shares describe explicit dictionary matches, not comprehensive true risk-framing prevalence."
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "symbol": "NVDA",
+    "events": {
+      "dividends": {
+        "1789047000": {
+          "amount": 0.25,
+          "date": 1789047000
+        }
+      }
+    },
+    "exchange_timezone": "America/New_York"
+  },
+  {
+    "symbol": "MSFT",
+    "events": {},
+    "exchange_timezone": "America/New_York"
+  },
+  {
+    "symbol": "GOOGL",
+    "events": {
+      "dividends": {
+        "1788528600": {
+          "amount": 0.22,
+          "date": 1788528600
+        }
+      }
+    },
+    "exchange_timezone": "America/New_York"
+  },
+  {
+    "symbol": "AMZN",
+    "events": {},
+    "exchange_timezone": "America/New_York"
+  },
+  {
+    "symbol": "META",
+    "events": {
+      "dividends": {
+        "1789997400": {
+          "amount": 0.525,
+          "date": 1789997400
+        }
+      }
+    },
+    "exchange_timezone": "America/New_York"
+  },
+  {
+    "symbol": "SPY",
+    "events": {
+      "dividends": {
+        "1789738200": {
+          "amount": 1.889,
+          "date": 1789738200
+        }
+      }
+    },
+    "exchange_timezone": "America/New_York"
+  }
+]

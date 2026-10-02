@@ -1,0 +1,34 @@
+import csv,json,datetime as dt
+from pathlib import Path
+P=Path(r'D:\School Work\FRE-GY 7871 NLP\Assignment 4')
+examples=[
+ dict(post_id='1wayu26',title='OpenAI putting safety first ...',self_text="Background: From OpenAI's announcement on the Millennium Prize Problem.\n[...] the group that produced the Navier–Stokes resolution involved on the order of 10,000 concurrent agents. At all times we maintained the same strict safeguards that we apply to all our frontier model evaluations, including monitoring and isolation.\nhttps://openai.com/index/navier-stokes-solution/\nThank goodness, we can all rest easy tonight!",author_identifier='LatentSpaceLeaper',original_url='https://www.reddit.com/r/singularity/comments/1wayu26/openai_putting_safety_first/',discovery_date='2026-09-08',collection_query='site:reddit.com/r/singularity "September 08 2026"',limitations='Image/meme not transcribed; body contains attributed source quotation; exact publication timestamp unavailable'),
+ dict(post_id='1wkbnae',title='Firefox deletes ChatGPT cookies despite cookie exception',self_text="I have Firefox set to delete cookies when I close the browser, but I added chatgpt.com and openai.com to the cookie exceptions. Despite this, Firefox logs me out of ChatGPT every time I reopen it.\nHow can I keep ChatGPT logged in while still deleting cookies for all other websites? I'm using the latest version of Firefox.",author_identifier='oneto221',original_url='https://www.reddit.com/r/techsupport/comments/1wkbnae/firefox_deletes_chatgpt_cookies_despite_cookie/',discovery_date='2026-09-19',collection_query='site:reddit.com/r/ChatGPT "September 19 2026"',limitations='ChatGPT usage support; relevance for sentiment unresolved; exact publication timestamp unavailable'),
+ dict(post_id='1wtnm5v',title='I think something might be happening',self_text='',author_identifier='Altruistic-Ad-3334',original_url='https://www.reddit.com/r/singularity/comments/1wtnm5v/i_think_something_might_be_happening/',discovery_date='2026-09-30',collection_query='site:reddit.com/r/artificial "September 30 2026"',limitations='Image-only post; title is not sufficient AI discussion text; no image transcription; exact publication timestamp unavailable')]
+for r in examples:
+ r.update(platform='Reddit',record_type='post',text=(r['title']+'\n'+r['self_text']).strip(),publication_timestamp='',retrieval_method='original Reddit page via web reader; date from discovery index',retrieved_at=dt.datetime.now(dt.timezone.utc).isoformat(),timestamp_status='missing exact timestamp; discovery date only',eligible_for_analysis=False)
+fields=['platform','post_id','record_type','text','publication_timestamp','author_identifier','original_url','retrieval_method','collection_query','title','self_text','discovery_date','timestamp_status','retrieved_at','eligible_for_analysis','limitations']
+with (P/'data/processed/social_discovery_examples.csv').open('w',newline='',encoding='utf-8-sig') as f:
+ w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(examples)
+(P/'data/raw/social_web_reader_examples.json').write_text(json.dumps(examples,indent=2),encoding='utf-8')
+audit=[]
+def a(platform,route,status,coverage,text,timestamp,limit):audit.append(dict(platform=platform,route=route,status=status,date_coverage_tested=coverage,text_availability=text,timestamp_availability=timestamp,limitations=limit))
+a('X','Prior unauthenticated original/search','prior failures reused; not repeated','candidate 2026-09-08','none','none','No change to access conditions')
+a('X','Full-archive API','untested; no credential; no paid requests','','none','none','Bearer with full-archive entitlement would need verified no-charge access; recent API cannot cover entire window')
+a('X','Local export/dataset inspection','none found','none','none','none','Only prior pilot data present; a personal account archive is not general AI discussion')
+a('X','warint/tweets-ai repository','incompatible date coverage','2017-01-01 to 2021-07-19','tweet field documented','created_at documented','Repository inspected; no in-window records; data payload not downloaded; https://github.com/warint/tweets-ai')
+a('X','SinclairSchneider/tweets_sample_2026','incompatible date coverage','2006-03-24 to 2026-07-27','text in viewer and schema','date in viewer and schema','Metadata/readme retrieved; ends before September; no in-window records; https://huggingface.co/datasets/SinclairSchneider/tweets_sample_2026')
+a('Facebook','Dated broad AI web searches','no results','2026-09-08;2026-09-19;2026-09-30','none','none','No original dated records retrieved')
+a('Facebook','MetaAI public page','login gate despite HTTP 200','','none verified','none verified','Saved HTML; web reader redirects to login; status 200 is not data-access success')
+a('Facebook','Authenticated research/Graph APIs','untested; no access credentials','','none','none','A scoped research-access or Page-authorized route/export is required; ordinary account login does not establish historical corpus access')
+a('Reddit','Public JSON historical search','HTTP 403','past-month broad AI query','none','none','No results payload; requested relative month is not proof of Sep 8–30 coverage')
+a('Reddit','Public JSON three original threads','HTTP 403','discovered Sep 8/19/30','none','none','No successful metadata retrieval; did not retry')
+a('Reddit','Local ordinary original HTML','HTTP 200; access interstitial','discovered Sep 8/19/30','none verified','none','No datetime attributes; no usable original records in local response')
+a('Reddit','Original pages via web reader','partial original examples','discovery dates Sep 8/19/30 2026','3 titles; 2 self-text bodies; 1 image-only','exact publication timestamps missing','3 discovery examples saved separately; 0 fully qualified records. Relative age is stale/unanchored; date-only search metadata is not an exact timestamp; no comments saved')
+a('Reddit','Approved research API/export','untested; no credentials/export','','none','none','Historical daily coverage and complete text must be tested after approved access')
+with (P/'social_access_audit.csv').open('w',newline='',encoding='utf-8-sig') as f:
+ w=csv.DictWriter(f,fieldnames=list(audit[0]));w.writeheader();w.writerows(audit)
+start=dt.date(2026,9,8); coverage=[dict(date=(start+dt.timedelta(days=i)).isoformat(),qualified_records=0,discovery_posts=sum(r['discovery_date']==(start+dt.timedelta(days=i)).isoformat() for r in examples),status='missing qualified observations; not observed zero discussion') for i in range(23)]
+with (P/'outputs/social_daily_coverage.csv').open('w',newline='',encoding='utf-8-sig') as f:
+ w=csv.DictWriter(f,fieldnames=list(coverage[0]));w.writeheader();w.writerows(coverage)
+print('Saved 3 partial original Reddit examples; 0 complete timestamp-qualified social records. All 23 dates lack qualified observations.')

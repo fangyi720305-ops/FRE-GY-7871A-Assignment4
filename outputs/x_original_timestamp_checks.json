@@ -1,0 +1,40 @@
+[
+  {
+    "original_url": "https://x.com/azalea22_0/status/2101882452507607388",
+    "requested_date": "2026-09-19",
+    "search_timestamp": "2026-09-21T03:53:22.000Z",
+    "visible_post_detail": [
+      {
+        "times": [
+          {
+            "timestamp": "2026-09-21T01:45:17.000Z",
+            "url": "https://x.com/tadypie/status/2101850218207527069"
+          }
+        ],
+        "text": [
+          "Tiktok is a place"
+        ]
+      }
+    ],
+    "retrieved_at": "2026-10-01T18:08:06.192Z"
+  },
+  {
+    "original_url": "https://x.com/TheSITherapist/status/2105721014642479208",
+    "requested_date": "2026-09-30",
+    "search_timestamp": "2026-10-01T18:06:26.000Z",
+    "visible_post_detail": [
+      {
+        "times": [
+          {
+            "timestamp": "2026-10-01T17:48:04.000Z",
+            "url": "https://x.com/KobeissiLetter/status/2105716391689040322"
+          }
+        ],
+        "text": [
+          "BREAKING: Anthropic is seeking to IPO as soon as the middle of November, per Bloomberg.\n\nThe company could start formal marketing for its IPO as soon as the week of November 9th, putting it in-line to begin trading before Thanksgiving.\n\nAnthropic’s valuation is now expected to"
+        ]
+      }
+    ],
+    "retrieved_at": "2026-10-01T18:08:13.609Z"
+  }
+]
